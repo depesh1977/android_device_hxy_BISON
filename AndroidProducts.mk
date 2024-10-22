@@ -6,9 +6,7 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/omni_BISON.mk
+    $(LOCAL_DIR)/twrp_BISON.mk
 
-COMMON_LUNCH_CHOICES := \
-    omni_BISON-user \
-    omni_BISON-userdebug \
-    omni_BISON-eng
+COMMON_LUNCH_CHOICES := twrp_BISON-eng
+
