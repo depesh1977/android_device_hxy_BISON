@@ -52,10 +52,6 @@ PRODUCT_PACKAGES += \
     mtk_plpath_utils \
     mtk_plpath_utils.recovery
 
-# Otacert
-PRODUCT_EXTRA_RECOVERY_KEYS += \
-    $(DEVICE_PATH)/security/releasekey.x509
-
 PRODUCT_PACKAGES += \
     otapreopt_script \
     cppreopts.sh \
