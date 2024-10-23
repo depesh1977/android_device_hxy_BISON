@@ -40,7 +40,6 @@ TARGET_USES_UEFI := true
 TARGET_SCREEN_DENSITY := 480
 
 # A/B
-AB_OTA_UPDATER := true
 TW_INCLUDE_REPACKTOOLS := true
 
 # Kernel
@@ -129,6 +128,9 @@ TW_EXCLUDE_DEFAULT_USB_INIT := true
 TW_INCLUDE_NTFS_3G := true
 TW_INCLUDE_RESETPROP := true
 TARGET_USES_MKE2FS := true
+
+# Statusbar icons flags
+TW_STATUS_ICONS_ALIGN := center
 
 TW_HAS_MTP := true
 TW_MTP_DEVICE := /dev/mtp_usb
