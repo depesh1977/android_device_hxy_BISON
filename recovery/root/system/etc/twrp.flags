@@ -9,10 +9,10 @@
 /product_image	    emmc	/dev/block/mapper/product_a             flags=backup=1;flashimg=1;slotselect;logical;display="Product Image_a"
 
 # Core Partitions
-/metadata                 ext4     /dev/block/by-name/md_udc            flags=display=metadata
+/metadata                 ext4     /dev/block/by-name/md_udc           flags=backup=1
 
 # Common partition
-/data                     ext4     /dev/block/by-name/userdata          flags=display=data;fileencryption=aes-256-xts:aes-256-cts:v1
+/data                     ext4     /dev/block/by-name/userdata          flags=display=data;encryptable=aes-256-xts:aes-256-cts:v1
 /dtbo                     emmc     /dev/block/by-name/dtbo              flags=display=dtbo;backup=1
 /recovery                 emmc     /dev/block/by-name/recovery          flags=display=recovery;backup=1
 /boot                     emmc     /dev/block/by-name/boot              flags=display=boot;backup=1
