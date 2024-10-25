@@ -1,5 +1,5 @@
 #fstab file by depesh1977
-/system		        ext4	/dev/block/mapper/system              flags=backup=1;wipeingui;slotselect;logical;display="System_root"
+/system		        ext4	/dev/block/mapper/system              flags=backup=1;wipeingui;slotselect;logical;display="System_a"
 /vendor             ext4    /dev/block/mapper/vendor             flags=backup=1;wipeingui;logical;display="Vendor_a";slotselect
 /product            ext4    /dev/block/mapper/product             flags=backup=1;wipeingui;logical;display="Product_a";slotselect
 
