@@ -37,7 +37,6 @@ TARGET_SCREEN_DENSITY := 480
 
 # Kernel
 TARGET_KERNEL_ARCH := arm64
-TARGET_NO_KERNEL := false
 BOARD_KERNEL_CMDLINE := bootopt=64S3,32N2,64N2
 BOARD_KERNEL_CMDLINE += androidboot.selinux=permissive
 BOARD_KERNEL_CMDLINE += androidboot.force_normal_boot=1  #maybe fix for issue of recovery bootloop
